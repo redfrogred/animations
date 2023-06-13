@@ -44,13 +44,14 @@ class MyApp extends StatelessWidget {
           ),
       ),      
       //initialRoute: 'Dashboard_Page',
-      initialRoute: 'Start_Page',
+      initialRoute: 'Debug_Page',
       routes: {
         'Start_Page': (context) => const Start_Page(),
         'End_Page': (context) => const End_Page(),
         'Dashboard_Page': (context) => const Dashboard_Page(),
         'Debug_Page': (context) => const Debug_Page(),
         'Dummy1_Page': (context) => const Dummy1_Page(),
+        'Dummy2_Page': (context) => const Dummy2_Page(),
         'Log_Page': (context) => const Log_Page(),
       },
     );
