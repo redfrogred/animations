@@ -10,4 +10,5 @@ export 'Dummy2_Page.dart';
 export 'Dummy3_Page.dart';
 export 'Dummy4_Page.dart';
 export 'Dummy5_Page.dart';
+export 'Dummy6_Page.dart';
 export 'Log_Page.dart';

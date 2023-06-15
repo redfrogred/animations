@@ -294,9 +294,9 @@ class _Debug_PageState extends State<Debug_Page> {
                           Padding(
                             padding: const EdgeInsets.fromLTRB(0,0,10,0),
                             child: TextButton(
-                              child: Text('Dummy 3'),
+                              child: Text('Dummy 6'),
                               onPressed: () {
-                                Navigator.of(context).pushNamed('Dummy3_Page');
+                                Navigator.of(context).pushNamed('Dummy6_Page');
                               },
                             ),
                           ),    
