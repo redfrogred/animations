@@ -44,7 +44,7 @@ class MyApp extends StatelessWidget {
           ),
       ),      
       //initialRoute: 'Dashboard_Page',
-      initialRoute: 'Debug_Page',
+      initialRoute: 'Start_Page',
       routes: {
         'Start_Page': (context) => const Start_Page(),
         'End_Page': (context) => const End_Page(),
@@ -52,6 +52,9 @@ class MyApp extends StatelessWidget {
         'Debug_Page': (context) => const Debug_Page(),
         'Dummy1_Page': (context) => const Dummy1_Page(),
         'Dummy2_Page': (context) => const Dummy2_Page(),
+        'Dummy3_Page': (context) => const Dummy3_Page(),
+        'Dummy4_Page': (context) => const Dummy4_Page(),
+        'Dummy5_Page': (context) => Dummy5_Page(),
         'Log_Page': (context) => const Log_Page(),
       },
     );

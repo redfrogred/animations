@@ -246,10 +246,63 @@ class _Debug_PageState extends State<Debug_Page> {
                           ),                            
 
 
+
+                          Padding(
+                            padding: const EdgeInsets.fromLTRB(0,0,10,0),
+                            child: TextButton(
+                              child: Text('Dummy 3'),
+                              onPressed: () {
+                                Navigator.of(context).pushNamed('Dummy3_Page');
+                              },
+                            ),
+                          ),    
+
                         ],
                       ),
                 
 
+
+
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [ 
+                
+                          Padding(
+                            padding: const EdgeInsets.fromLTRB(0,0,10,0),
+                            child: TextButton(
+                              child: Text('Dummy 4'),
+                              onPressed: () {
+                                Navigator.of(context).pushNamed('Dummy4_Page');
+                              },
+                            ),
+                          ),  
+
+
+                          Padding(
+                            padding: const EdgeInsets.fromLTRB(0,0,10,0),
+                            child: TextButton(
+                              child: Text('Dummy 5'),
+                              onPressed: () {
+                                Navigator.of(context).pushNamed('Dummy5_Page');
+                              },
+                            ),
+                          ),                            
+
+
+
+                          Padding(
+                            padding: const EdgeInsets.fromLTRB(0,0,10,0),
+                            child: TextButton(
+                              child: Text('Dummy 3'),
+                              onPressed: () {
+                                Navigator.of(context).pushNamed('Dummy3_Page');
+                              },
+                            ),
+                          ),    
+
+                        ],
+                      ),
 
 
 

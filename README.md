@@ -2,10 +2,11 @@
 This repo is a whack of animation examples
 
 ## LEFT OFF
-* uploaded "starter" to repo
+* playing around with "flutter_animate" pkg
+  + see "flutter_animate" under notes.md
 
 ## NEXT STEPS 
-  * make menu
+  * ?
 
 ## FUTURE
   * ?
